@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": " Crafting visually appealing and responsive web designs is something I genuinely enjoy. With a strong foundation in HTML5 and CSS3, I can create structured and styled web pages. Bootstrap helps me to ensure that my designs are not only beautiful but also functional across various devices."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "I use Express.js to develop efficient server-side applications and MongoDB to manage data effectively with its flexible NoSQL database. "
+    } 
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "PeerPlus",
+      "description": "A web application called PeerPulse, which aims to provide peers networking for college student",
+      "link": "https://github.com/Umesh7Dixit/PeerPulse_With_RealTime_Chat"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Task Ease",
+      "description": "Designed a platform for task management with features like task addition and completion tracking",
+      "link": "https://github.com/Umesh7Dixit/TaskEase-WithBackend"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Crypto Webapp",
+      "description": "A responsive platform for real-time cryptocurrency exchange and purchase.",
+      "link": "https://github.com/Umesh7Dixit/crypto_Exchange_WebApp"
+    }
+  ]
+  
+}
