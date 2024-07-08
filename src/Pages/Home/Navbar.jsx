@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import AddResume from "./AddResume";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -36,6 +37,9 @@ function Navbar() {
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
         <h2>Umesh Dixit</h2> 
+      </div>
+      <div className="btn btn-outline-primary  " >
+        <AddResume/>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
