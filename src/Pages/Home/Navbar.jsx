@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import AddResume from "./AddResume";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -38,9 +37,9 @@ function Navbar() {
       <div>
         <h2>Umesh Dixit</h2> 
       </div>
-      <div className="btn btn-outline-primary  " >
-        <AddResume/>
-      </div>
+      {/* <div className="btn btn-outline-primary  " >
+        <AddResume/> */}
+      {/* </div> */}
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
@@ -65,20 +64,7 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
-              className="navbar--content"
-            >
-              Portfolio
-            </Link>
-          </li>
+
           <li>
             <Link
               onClick={closeMenu}
@@ -93,6 +79,22 @@ function Navbar() {
               About Me
             </Link>
           </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MyPortfolio"
+              className="navbar--content"
+            >
+              Portfolio
+            </Link>
+          </li>
+         
   
         </ul>
       </div>

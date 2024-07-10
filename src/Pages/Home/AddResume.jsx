@@ -43,13 +43,13 @@ const AddResume = () => {
 
   return (
     <div className="p-4">
-      <a
-        href="https://github.com/Umesh7Dixit/UmeshDixit_Portfolio.git/resume.pdf"
-        className="inline-block px-6 py-2 text-white bg-blue-600 rounded hover:bg-blue-700"
-        style={{ textDecoration: 'none' }}
-        // onClick={handleDownload}
-      >
-        My Resume
+    <a
+      href="/resume.pdf"
+      download="resume.pdf"
+      className="inline-block px-6 py-2 text-white bg-blue-600 rounded hover:bg-blue-700"
+      style={{ textDecoration: 'none' }}
+    >
+      My Resume
       </a>
     </div>
   );
