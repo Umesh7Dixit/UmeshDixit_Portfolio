@@ -104,7 +104,7 @@ function Footer() {
 
       <div className="footer--content--container">
         <div className="footer--social--icon">
-          <ul>
+          {/* <ul>
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -130,7 +130,7 @@ function Footer() {
                 Cookies Settings
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
 
